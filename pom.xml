@@ -60,4 +60,15 @@
     </plugins>
   </build>
 
+<distributionManagement>
+          <snapshotRepository>
+                  <id>nexus-snapshots</id>
+                  <url>http://35.164.51.6:8081/repository/maven-snapshots/</url>
+          </snapshotRepository>
+          <repository>
+                  <id>nexus-release</id>
+                  <name>Internal Releases</name>
+                  <url>http://35.164.51.6:8081/repository/maven-releases/</url>
+          </repository>
+  </distributionManagement>
 </project>
